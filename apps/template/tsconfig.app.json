@@ -1,3 +1,6 @@
 {
-  "extends": "@repo/typescript-config/app.json"
+  "extends": "@repo/typescript-config/app.json",
+  "compilerOptions": {
+    "baseUrl": "."
+  }
 }
